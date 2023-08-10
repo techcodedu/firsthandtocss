@@ -1,8 +1,9 @@
+
 # **Activity 2: Designing a Finance Page**
 
 ## **Objective**
 
-Introduce beginners to advanced semantic HTML elements and CSS properties through the design of a simple finance-themed webpage.
+Enhance beginners' knowledge of semantic HTML elements and CSS properties by designing a basic finance-themed webpage.
 
 ## **Prerequisites**
 
@@ -70,7 +71,7 @@ In `finance.html`, structure the content:
 
 ### 3. **CSS Styling**
 
-In `finance.css`, build upon the previous styles and add new ones:
+In `finance.css`, build upon the previous styles and keep it simple:
 
 ```css
 body {
@@ -81,34 +82,24 @@ body {
 }
 
 header {
-    position: relative;
+    background-color: #333;
+    padding: 10px;
     text-align: center;
     color: white;
 }
 
 header img {
     width: 100%;
-    height: auto;
-}
-
-header h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    background-color: rgba(0,0,0,0.7);
-    padding: 10px;
-    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
 }
 
 nav ul {
-    background-color: #333;
-    overflow: auto;
-    color: white;
+    background-color: #444;
     padding: 0;
-    text-align: center;
     margin: 0;
+    text-align: center;
+    list-style-type: none;
 }
 
 nav li {
@@ -117,8 +108,7 @@ nav li {
 
 nav a {
     display: inline-block;
-    width: 33.3%;
-    padding: 12px 24px;
+    padding: 10px 20px;
     color: white;
     text-decoration: none;
 }
@@ -130,15 +120,19 @@ nav a:hover {
 main {
     background-color: #FFF;
     padding: 20px;
-    margin: 20px;
+    margin: 15px;
+}
+
+h2, h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #444;
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
 }
 
 ```
@@ -146,17 +140,17 @@ footer {
 ### 4. **Preview & Discuss**
 
 - Open the `finance.html` in a web browser.
-- Observe how semantic tags organize content and how CSS enhances its appearance.
+- Observe how the semantic tags organize the content and the simplicity of the CSS.
 - Discuss:
   - The role of each semantic tag.
-  - How the new CSS properties (`position`, `transform`, `background-color with rgba`, etc.) affected the layout and design.
+  - How the CSS properties applied change the appearance of your content.
 
 ## **Extensions**
 
-1. Add more images for each section in the article.
-2. Experiment with different `:hover` effects for navigation links.
-3. Try using a gradient background for the `nav` or `footer`.
+1. Add a background color to the `article` tag.
+2. Adjust the `margin` and `padding` properties for different sections.
+3. Experiment with different font sizes for headers.
 
 ---
 
-You can place this markdown directly into a section of your `README.md` on GitHub after the previous activity. The learners will then have a continuous learning experience, first with the blog page and then with the finance page.
+This design is simplified for beginners, focusing on fundamental CSS properties and ensuring that the design remains visually appealing.
