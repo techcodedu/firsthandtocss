@@ -78,5 +78,5 @@ Now, in `diary.css`, we won't provide the exact code. Instead, we'll give hints 
 
 ## **Expected Output**
 
-To view what your final design should closely resemble, [click here](PASTE_YOUR_LINK_HERE).
+To view what your final design should closely resemble, https://techcodedu.github.io/activity3output/
 
